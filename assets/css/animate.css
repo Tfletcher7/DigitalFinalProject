@@ -3492,3 +3492,26 @@
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  width: 90%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+th {
+  background-color: #ffc107;
+  color: black;
+}
+
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

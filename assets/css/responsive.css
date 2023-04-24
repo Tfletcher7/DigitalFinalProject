@@ -37,6 +37,14 @@
        About Area
     ::::::::::::::::::::::::::::::::::::*/
     .about-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* vertically aligns the content */
+        align-items: center; /* horizontally centers the content */
+        height: 100%; /* sets the height to 100% to take up the full height of the parent div */
+    }
+    
+    .about-content {
         margin-top: 30px;
     }
 
@@ -139,11 +147,17 @@
     /*::::::::::::::::::::::::::::::::::::
        About Area
     ::::::::::::::::::::::::::::::::::::*/
+    
     .about-content {
         margin-top: 30px;
     }
+    .about-content {
+        width: 100%;
+        margin: 0;
+      }
+      
     .about-content h2 {
-        font-size: 24px;
+        font-size: 24px
     }
     .about-content h4 {
         font-size: 16px;
@@ -235,6 +249,8 @@
     }
 }
 
+
+  
 /* Wide Mobile Layout: 480px. */
 
 @media only screen and (min-width: 480px) and (max-width: 767px) {
