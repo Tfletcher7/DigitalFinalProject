@@ -409,6 +409,11 @@ button:focus {
     background-position: center;
     background-color: #ffc900;
 }
+image {
+    max-width: 100%;
+    height: auto;
+}
+
 
 .social-aria a {
     color: #fff;
